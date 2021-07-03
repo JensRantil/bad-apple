@@ -9,7 +9,7 @@ application fail, but you don't know which.
 Let's say that the application is really slow to start (for example, `java`),
 then executing your application serially across every line isn't viable. That's
 when `bad-apple.py` comes in! It does a binary search across all lines and
-tries too find which lines are failing while testing as many lines as possible
+tries to find which lines are failing while testing as many lines as possible
 in each run.
 
 The application can also be used to make sure to execute something for all
